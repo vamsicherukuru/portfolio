@@ -44,7 +44,7 @@ body {
 }
 
 h5::before {
-  content: "Geeks";
+  content: "Django Developer";
   animation: animate infinite 8s;
   padding-left: 10px;
 }
