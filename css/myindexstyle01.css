@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap");
 
 body {
   background-image: url("../images/main_bg.jpg");
@@ -31,5 +32,33 @@ body {
 .image-desc h1 {
   color: white;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 70px;
+  z-index: 202;
+  font-family: "Rajdhani", sans-serif;
+}
+.image-desc h5 {
+  color: white;
+  font-weight: bolder;
+
+  z-index: 202;
+}
+
+h5::before {
+  content: "Geeks";
+  animation: animate infinite 8s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  25% {
+    content: "Django Developer";
+  }
+
+  50% {
+    content: "and..";
+  }
+
+  75% {
+    content: "An Aspiring Data Scientist";
+  }
 }
